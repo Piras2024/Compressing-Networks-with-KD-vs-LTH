@@ -1,1 +1,1 @@
-# Computer Vision Project
+# Compressing Networks with KD vs LTH
