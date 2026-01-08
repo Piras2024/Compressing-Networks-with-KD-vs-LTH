@@ -1,0 +1,93 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+.envrc
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs and runtime files
+logs/
+*.log
+*.out
+*.err
+
+# Data and datasets (adjust if you commit raw data intentionally)
+data/
+datasets/
+*.csv
+*.tsv
+
+# Model artifacts and checkpoints
+models/
+checkpoints/
+checkpoints-*/
+runs/
+wandb/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.pb
+*.onnx
+*.tflite
+
+# Numpy / binary data
+*.npy
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.seed
+*.prof
+local_settings.py
+credentials.json
+secrets.json
+
+# Build system leftovers
+*.egg
+.eggs/
+
+# Type checkers / caches
+.mypy_cache/
+.pyre/
+
+# Notebook conversion outputs
+*.nbconvert.ipynb
+.vscode
+mnist1d/
