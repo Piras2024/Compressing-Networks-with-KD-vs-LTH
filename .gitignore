@@ -93,3 +93,6 @@ secrets.json
 *.nbconvert.ipynb
 .vscode
 mnist1d/
+
+
+mnist1d_data.pkl
