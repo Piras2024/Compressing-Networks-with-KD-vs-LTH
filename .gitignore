@@ -94,5 +94,4 @@ secrets.json
 .vscode
 mnist1d/
 
-
-mnist1d_data.pkl
+*.pkl
