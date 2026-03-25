@@ -27,3 +27,15 @@ Beyond predictive performance and training time, the project analyzes:
 - **Lottery Tickets** achieve higher accuracy and maintain richer penultimate-layer features, despite heavy parameter sparsity.  
 - **Distilled students** are constrained by architectural bottlenecks, resulting in lower feature dimensionality and representation similarity.  
 - LMC is satisfied only when using **matching models** with early weight rewinding, highlighting the role of early training dynamics.
+
+## Project Report
+
+A detailed report of the experiments, results, and analyses is provided in the repository as **`Report.pdf`**.  
+This document includes:
+
+- A description of the experimental setup, datasets, and network architectures.
+- Comparative results of Knowledge Distillation (KD) and Lottery Ticket Hypothesis (LTH) models.
+- Analyses of representation similarity (CKA), feature sparsity, effective dimensionality, and Linear Mode Connectivity (LMC).
+- Discussion of insights and considerations based on the results.
+
+You can view or download the report directly from the repository.
